@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    background-color: #231F20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .left {
+    padding: 20px;
+    padding-left: 30px;
+  }
+  
+  .right a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    transition: 1s;
+    padding-right: 30px;
+  }
+  .right a:hover {
+    color: #1f6eeb;
+    transition: 1s;
+  }
